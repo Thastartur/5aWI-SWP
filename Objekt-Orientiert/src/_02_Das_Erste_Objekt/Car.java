@@ -5,13 +5,14 @@ public class Car {
     public int fuelConsumption;
     public int fuelAmount;
     public int tankAmount;
+    public int fuelRange;
     public String brand;
     public String serialNumber;
     private String color;
 
     // Methode
     public void drive(){
-        this.fuelAmount = this.fuelAmount - fuelConsumption ;
+        this.fuelAmount = this.fuelAmount - fuelConsumption;
         System.out.println("I am driving.");
     }
 
@@ -26,5 +27,14 @@ public class Car {
         else{
             System.out.println("Not enough fuel to enable SuperBoostMode.");
         }
+    }
+
+    public void honk(int amountOfRepetitions){
+        System.out.println("Tuuut.");
+    }
+
+    public void getRemainingRange(){
+        this.fuelRange = this.fuelAmount / fuelConsumption;
+        System.out.println(this.fuelRange);
     }
 }

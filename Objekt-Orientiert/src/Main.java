@@ -23,5 +23,7 @@ public class Main {
         c1.Break();
         c1.turboBoost();
         c2.turboBoost();
+        c1.honk(7);
+        c1.getRemainingRange();
     }
 }
