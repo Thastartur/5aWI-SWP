@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/5aWI-Unterricht.iml" filepath="$PROJECT_DIR$/.idea/5aWI-Unterricht.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithmus/Algorithmus.iml" filepath="$PROJECT_DIR$/Algorithmus/Algorithmus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Objekt-Orientiert/Objekt-Orientiert.iml" filepath="$PROJECT_DIR$/Objekt-Orientiert/Objekt-Orientiert.iml" />
+    </modules>
+  </component>
+</project>
