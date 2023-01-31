@@ -1,0 +1,28 @@
+.container-top {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  height: 68vh;
+}
+
+.box-top {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.container-bottom {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 29vh;
+}
+
+.box-bottom {
+  background-color: orangered;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
